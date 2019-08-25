@@ -1427,11 +1427,14 @@ h4, h5, h6 {
     width: 25%;
 }
 
-/*
 .page-layout-admin-login {
-    background-image: url(../CustomModule_BuildingManager/images/logo.png) !important;
+    background-image: url(../images/background.jpg) !important;
+    background-size: cover;
 }
-*/
+
+.page-layout-admin-login .page-wrapper{
+    background-color: #ffffffd9;
+}
 
 /*.admin-user.admin__action-dropdown-wrap.active > ul > li:nth-child(1) > a{
     display: none;

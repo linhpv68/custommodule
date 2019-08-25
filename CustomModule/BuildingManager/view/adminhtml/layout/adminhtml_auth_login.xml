@@ -12,6 +12,7 @@
     </head>
     <update handle="admin_login" />
     <body>
+        <referenceContainer name="login.header" remove="true"/>
         <referenceContainer name="login.content">
             <block class="Magento\Backend\Block\Template" name="admin.login" template="CustomModule_BuildingManager::admin/login.phtml">
                 <container name="form.additional.info" label="Form Additional Info"/>
